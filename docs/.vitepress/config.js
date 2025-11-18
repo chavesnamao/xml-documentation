@@ -2,7 +2,7 @@ export default {
   title: 'Documentação XML Chaves Na Mão',
   description: 'Nossa incrível documentação de integração.',
   lang: 'pt-BR',
-  base: '/',
+  base: '/xml-documentation/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['style', {}, `
