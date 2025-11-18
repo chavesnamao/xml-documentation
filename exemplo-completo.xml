@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document>
+    <imoveis>
+        <imovel>
+            <referencia>AP01</referencia>
+            <codigo_cliente>AP01</codigo_cliente>
+            <link_cliente>https://www.imobiliariateste.com.br/imovel/ap01</link_cliente>
+            <titulo>Apartamento 2 Quartos com Suíte - Novo Mundo</titulo>
+            <transacao>V</transacao>
+            <transacao2>L</transacao2>
+            <finalidade>RE</finalidade>
+            <finalidade2></finalidade2>
+            <destaque>1</destaque>
+            <tipo>Apartamento</tipo>
+            <tipo2></tipo2>
+            <valor>280000</valor>
+            <valor_locacao>1800</valor_locacao>
+            <valor_iptu>1200</valor_iptu>
+            <valor_condominio>520</valor_condominio>
+            <area_total>75</area_total>
+            <area_util>62</area_util>
+            <conservacao>Novo</conservacao>
+            <quartos>2</quartos>
+            <suites>1</suites>
+            <garagem>1</garagem>
+            <banheiro>2</banheiro>
+            <closet>1</closet>
+            <salas>2</salas>
+            <despensa>0</despensa>
+            <bar>0</bar>
+            <cozinha>1</cozinha>
+            <quarto_empregada>0</quarto_empregada>
+            <escritorio>0</escritorio>
+            <area_servico>1</area_servico>
+            <lareira>0</lareira>
+            <varanda>1</varanda>
+            <lavanderia>0</lavanderia>
+            <aceita_pet>1</aceita_pet>
+            <estado>PR</estado>
+            <cidade>Curitiba</cidade>
+            <bairro>Novo Mundo</bairro>
+            <cep>82010000</cep>
+            <endereco>Rua das Flores</endereco>
+            <numero>1500</numero>
+            <complemento>Apto 302</complemento>
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            <descritivo><![CDATA[
+Lindo apartamento com 2 quartos sendo 1 suíte, sala de estar e jantar,
+cozinha planejada, área de serviço e varanda. Condomínio completo com
+piscina, academia e salão de festas. Localização privilegiada no bairro
+Novo Mundo, próximo a comércios, escolas e transporte público.
+            ]]></descritivo>
+            <fotos_imovel>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/ap01-fachada.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/ap01-sala.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/ap01-cozinha.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/ap01-quarto1.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/ap01-banheiro.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+            </fotos_imovel>
+            <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+            <latitude>-25.4284</latitude>
+            <longitude>-49.2733</longitude>
+            <video>https://www.youtube.com/watch?v=xxxxx</video>
+            <tour_360>https://my.matterport.com/show/?m=xxxxx</tour_360>
+            <area_comum>
+                <item>Academia</item>
+                <item>Piscina</item>
+                <item>Salão de Festas</item>
+                <item>Churrasqueira</item>
+                <item>Playground</item>
+                <item>Portaria 24h</item>
+                <item>Elevador</item>
+            </area_comum>
+            <area_privativa>
+                <item>Ar Condicionado</item>
+                <item>Armário Embutido</item>
+                <item>Closet</item>
+                <item>Piso Porcelanato</item>
+                <item>Box Blindex</item>
+                <item>Varanda</item>
+            </area_privativa>
+            <aceita_troca>0</aceita_troca>
+            <periodo_locacao></periodo_locacao>
+        </imovel>
+        
+        <imovel>
+            <referencia>CS02</referencia>
+            <codigo_cliente>CS02</codigo_cliente>
+            <link_cliente>https://www.imobiliariateste.com.br/imovel/cs02</link_cliente>
+            <titulo>Casa 3 Quartos com Piscina - Condomínio Fechado</titulo>
+            <transacao>V</transacao>
+            <transacao2></transacao2>
+            <finalidade>RE</finalidade>
+            <finalidade2></finalidade2>
+            <destaque>1</destaque>
+            <tipo>Casa de Condomínio</tipo>
+            <tipo2></tipo2>
+            <valor>650000</valor>
+            <valor_locacao></valor_locacao>
+            <valor_iptu>2500</valor_iptu>
+            <valor_condominio>800</valor_condominio>
+            <area_total>300</area_total>
+            <area_util>220</area_util>
+            <conservacao>Novo</conservacao>
+            <quartos>3</quartos>
+            <suites>2</suites>
+            <garagem>2</garagem>
+            <banheiro>3</banheiro>
+            <closet>1</closet>
+            <salas>2</salas>
+            <despensa>1</despensa>
+            <bar>0</bar>
+            <cozinha>1</cozinha>
+            <quarto_empregada>1</quarto_empregada>
+            <escritorio>1</escritorio>
+            <area_servico>1</area_servico>
+            <lareira>1</lareira>
+            <varanda>2</varanda>
+            <lavanderia>1</lavanderia>
+            <aceita_pet>1</aceita_pet>
+            <estado>PR</estado>
+            <cidade>Curitiba</cidade>
+            <bairro>Santa Felicidade</bairro>
+            <cep>82020000</cep>
+            <endereco>Rua dos Pinheiros</endereco>
+            <numero>500</numero>
+            <complemento></complemento>
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            <descritivo><![CDATA[
+Linda casa em condomínio fechado com 3 quartos sendo 2 suítes, sala de estar e jantar,
+escritório, cozinha planejada, área de serviço, varanda gourmet com churrasqueira.
+Destaque para a piscina aquecida e jardim. Condomínio com segurança 24h, portaria,
+área verde, playground e quadra de esportes.
+            ]]></descritivo>
+            <fotos_imovel>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/cs02-fachada.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/cs02-sala.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/cs02-piscina.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+            </fotos_imovel>
+            <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+            <latitude>-25.4100</latitude>
+            <longitude>-49.3200</longitude>
+            <video></video>
+            <tour_360></tour_360>
+            <area_comum>
+                <item>Portaria 24h</item>
+                <item>Segurança 24h</item>
+                <item>Área Verde</item>
+                <item>Playground</item>
+                <item>Quadra de Esportes</item>
+            </area_comum>
+            <area_privativa>
+                <item>Piscina Aquecida</item>
+                <item>Churrasqueira</item>
+                <item>Jardim</item>
+                <item>Ar Condicionado</item>
+                <item>Armário Embutido</item>
+                <item>Closet</item>
+                <item>Lareira</item>
+                <item>Aquecimento Central</item>
+            </area_privativa>
+            <aceita_troca>0</aceita_troca>
+            <periodo_locacao></periodo_locacao>
+        </imovel>
+        
+        <imovel>
+            <referencia>SC03</referencia>
+            <codigo_cliente>SC03</codigo_cliente>
+            <link_cliente>https://www.imobiliariateste.com.br/imovel/sc03</link_cliente>
+            <titulo>Sala Comercial - Centro Empresarial</titulo>
+            <transacao>L</transacao>
+            <transacao2></transacao2>
+            <finalidade>CO</finalidade>
+            <finalidade2></finalidade2>
+            <destaque>0</destaque>
+            <tipo>Sala Comercial</tipo>
+            <tipo2></tipo2>
+            <valor></valor>
+            <valor_locacao>2500</valor_locacao>
+            <valor_iptu>800</valor_iptu>
+            <valor_condominio>450</valor_condominio>
+            <area_total>50</area_total>
+            <area_util>45</area_util>
+            <conservacao>Reformado</conservacao>
+            <quartos>0</quartos>
+            <suites>0</suites>
+            <garagem>1</garagem>
+            <banheiro>1</banheiro>
+            <closet>0</closet>
+            <salas>1</salas>
+            <despensa>0</despensa>
+            <bar>0</bar>
+            <cozinha>0</cozinha>
+            <quarto_empregada>0</quarto_empregada>
+            <escritorio>1</escritorio>
+            <area_servico>0</area_servico>
+            <lareira>0</lareira>
+            <varanda>0</varanda>
+            <lavanderia>0</lavanderia>
+            <aceita_pet>0</aceita_pet>
+            <estado>PR</estado>
+            <cidade>Curitiba</cidade>
+            <bairro>Centro</bairro>
+            <cep>80010000</cep>
+            <endereco>Rua XV de Novembro</endereco>
+            <numero>500</numero>
+            <complemento>Sala 1204</complemento>
+            <esconder_endereco_imovel>0</esconder_endereco_imovel>
+            <descritivo><![CDATA[
+Sala comercial em excelente localização no Centro de Curitiba. 
+Edifício moderno com elevadores, portaria 24h e segurança.
+Ideal para escritório, consultório ou representação.
+Próximo a bancos, comércio e transporte público.
+            ]]></descritivo>
+            <fotos_imovel>
+                <foto>
+                    <url>https://www.imobiliariateste.com.br/imovel/imagens/sc03-sala.jpeg</url>
+                    <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+                </foto>
+            </fotos_imovel>
+            <data_atualizacao>2023-11-15 17:00:00</data_atualizacao>
+            <latitude>-25.4284</latitude>
+            <longitude>-49.2733</longitude>
+            <video></video>
+            <tour_360></tour_360>
+            <area_comum>
+                <item>Elevador</item>
+                <item>Portaria 24h</item>
+                <item>Segurança 24h</item>
+                <item>Recepção</item>
+            </area_comum>
+            <area_privativa>
+                <item>Ar Condicionado</item>
+                <item>Escritório</item>
+                <item>Copa</item>
+                <item>Internet</item>
+            </area_privativa>
+            <aceita_troca>0</aceita_troca>
+            <periodo_locacao></periodo_locacao>
+        </imovel>
+    </imoveis>
+</Document>
