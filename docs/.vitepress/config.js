@@ -1,5 +1,5 @@
 export default {
-  title: 'Documentação XML Chaves Na Mão',
+  title: 'Chaves na Mão - Documentação XML',
   description: 'Nossa incrível documentação de integração.',
   lang: 'pt-BR',
   base: '/xml-documentation/',
@@ -22,6 +22,7 @@ export default {
   ],
   
   themeConfig: {
+    siteTitle: false,
     logo: {
       light: '/logo-cnm-red.png',
       dark: '/logo-cnm-w.png'
