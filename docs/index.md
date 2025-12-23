@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Documentação XML"
   text: "Chaves Na Mão"
-  tagline: Portal de integração de imóveis via XML
+  tagline: Integração de imóveis via XML
   actions:
     - theme: brand
       text: Começar
@@ -21,7 +21,7 @@ features:
 
 # Bem-vindo
 
-Seja bem-vindo(a) ao portal de integração do Chaves na Mão. Aqui você irá encontrar todos os passos necessários para integrar seus anúncios ao nosso sistema.
+Seja bem-vindo(a) a documentação de integração de imóveis via XML do Chaves na Mão. Aqui você irá encontrar todos os passos necessários para integrar seus anúncios ao nosso sistema.
 
 ## Outras Integrações
 
