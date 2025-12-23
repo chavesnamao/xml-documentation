@@ -27,7 +27,6 @@ export default {
       light: '/logo-cnm-red.png',
       dark: '/logo-cnm-w.png'
     },
-    siteTitle: false,
     
     nav: [
       {
