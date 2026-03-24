@@ -41,7 +41,7 @@
 | endereco | NÃO | string(200) | Endereço do imóvel, sem o bairro, número e complemento. Somente o logradouro do imóvel deve ser enviado neste campo. Máximo de 200 (duzentos) caracteres. |
 | numero | NÃO | string(10) | Número do imóvel no endereço. Máximo de 10 (dez) caracteres. |
 | complemento | NÃO | string(50) | Complemento do número do imóvel no endereço. Máximo de 20 (vinte) caracteres. |
-| descritivo | SIM | text | Descrição do imóvel. Tamanho máximo de 3000 caracteres. |
+| descritivo | SIM | text | Descrição do imóvel. Tamanho máximo de 3000 caracteres. Ver especificações de seu conteúdo em [Especificações Descritivo](/arquivo/especificacoes/especificacoes-descritivo) |
 | fotos_imovel | NÃO | TAG | Depende da tag foto, url e data_atualizacao dentro da mesma, ver especificações de seu conteúdo em [Especificações Fotos](/arquivo/especificacoes/especificacoes-fotos) |
 | data_atualizacao | NÃO | datetime | Data de cadastro ou data da última atualização do imóvel no sistema do cliente. Priorizar o informe da data de última utilização, caso existente no sistema. Formato data/hora suportado: AAAA-MM-DD HH:MM:SS (ex: 2021-10-10 12:00:00). |
 | latitude | NÃO | string | Coordenada geográfica latitude do endereço do imóvel. Deve ser informado no padrão utilizado pelo Google (ex: -49.1829). |

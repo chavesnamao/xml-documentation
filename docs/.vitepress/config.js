@@ -63,6 +63,7 @@ export default {
             { text: 'Imóveis', link: '/arquivo/imoveis' },
             { text: 'Imóvel', link: '/arquivo/imovel' },
             { text: 'Especificações das Tags', link: '/arquivo/especificacoes/especificacoes-tags' },
+            { text: 'Tag Descritivo', link: '/arquivo/especificacoes/especificacoes-descritivo' },
             { text: 'Tag de Fotos', link: '/arquivo/especificacoes/especificacoes-fotos' },
             { text: 'Tag Área Comum', link: '/arquivo/especificacoes/especificacoes-area-comum' },
             { text: 'Tag Área Privativa', link: '/arquivo/especificacoes/especificacoes-area-privativa' }
