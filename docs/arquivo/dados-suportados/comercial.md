@@ -6,11 +6,12 @@ O valor deve estar como na tabela abaixo, respeitando acentuação e espaçament
 
 ## Tipos de Imóveis Suportados
 
+- Barracão / Galpão
 - Casa / Sobrado Comercial
 - Conj. Comercial / Sala
+- Consultório
+- Edifício
 - Fazenda
-- Galpão / Depósito
 - Garagem
-- Ponto Comercial
-- Prédio
+- Loja / Comércio
 - Terreno comercial

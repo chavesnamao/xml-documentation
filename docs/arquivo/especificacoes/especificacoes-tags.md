@@ -8,17 +8,18 @@
 | titulo | NÃO | string | Título do imóvel colocado pelo cliente. |
 | transacao | SIM | char(1) | Tipo de transação do imóvel (venda ou locação). Utilizar V para venda ou L para locação. |
 | transacao2 | NÃO | char(1) | Tipo de transação secundária do imóvel (venda ou locação). Utilizar V para venda ou L para locação. Utilizar em casos de imóveis disponíveis tanto para venda quanto para locação |
-| finalidade | SIM | char(2) | Finalidade do imóvel (residencial, comercial, rural). Utilizar RE para residencial, CO para comercial e RU para rural. |
-| finalidade2 | NÃO | char(2) | Finalidade secundária do imóvel (residencial, comercial, rural). Utilizar RE para residencial, CO para comercial e RU para rural. Utilizar em casos de imóveis disponíveis para mais de uma finalidade. Caso o imóvel não possua duas finalidades deixar este campo vazio. |
+| finalidade | SIM | char(2) | Finalidade do imóvel (residencial ou comercial). Utilizar RE para residencial e CO para comercial. |
+| finalidade2 | NÃO | char(2) | Finalidade secundária do imóvel (residencial ou comercial). Utilizar RE para residencial e CO para comercial. Utilizar em casos de imóveis disponíveis para mais de uma finalidade. Caso o imóvel não possua duas finalidades deixar este campo vazio. |
 | destaque | SIM | integer(1) | Informa se o imóvel deve aparecer em destaque no portal ou não. Utilizar 0 para não e 1 para sim. |
-| tipo | SIM | string | Tipo do imóvel para a tag finalidade. Ver lista de tipos de imóveis suportados de acordo com sua finalidade no item 2.2 deste documento. |
-| tipo2 | NÃO | string | Tipo do imóvel para a tag finalidade2. Ver lista de tipos de imóveis suportados de acordo com sua finalidade no item 2.2 deste documento. Caso o imóvel não possua duas finalidades, deixe este campo vazio. |
+| tipo | SIM | string | Tipo do imóvel para a tag finalidade. Ver [lista de tipos de imóveis suportados](/arquivo/dados-suportados/imoveis-suportados) de acordo com sua finalidade. |
+| tipo2 | NÃO | string | Tipo do imóvel para a tag finalidade2. Ver [lista de tipos de imóveis suportados](/arquivo/dados-suportados/imoveis-suportados) de acordo com sua finalidade. Caso o imóvel não possua duas finalidades, deixe este campo vazio. |
 | valor | SIM | float | Valor do imóvel. Deve estar em formato float, com ponto (.) para casas decimais. Pode ser utilizado para informar tanto o valor de venda quanto de locação, caso o imóvel possua apenas um tipo de transação. Caso possua dois tipos de transações (venda ou locação), este campo deve ser utilizado para informar o valor de venda. |
 | valor_locacao | NÃO | float | Valor de locação do imóvel. Deve estar em formato float, com ponto (.) para casas decimais. Utilizar somente caso o imóvel esteja disponível tanto para venda quanto para locação. |
 | valor_iptu | NÃO | float | Valor do IPTU do imóvel. Deve estar em formato float, com ponto (.) para casas decimais. |
 | valor_condominio | NÃO | float | Valor do condomínio do imóvel. Deve estar em formato float, com ponto (.) para casas decimais. |
 | area_total | NÃO | float | Área total do imóvel. Deve estar em formato float, com ponto (.) para casas decimais. |
 | area_util | NÃO | float | Área útil do imóvel. Deve estar em formato float, com ponto (.) para casas decimais. |
+| conservacao | NÃO | char(1) | Estado de conservação do imóvel. Utilizar N para Novo e U para Usado. |
 | quartos | NÃO | integer(3) | Quantidade de quartos do imóvel. Deve estar no formato de número inteiro. Pode possuir 2-3 (dois ou três) caracteres. |
 | suites | NÃO | integer(2) | Quantidade de suítes do imóvel. Deve estar no formato de número inteiro. Pode possuir 2-3 (dois ou três) caracteres. |
 | garagem | NÃO | integer(3) | Quantidade de garagens do imóvel. Deve estar no formato de número inteiro. Pode possuir 2-3 (dois ou três) caracteres. |
@@ -40,7 +41,7 @@
 | cep | NÃO | string(9) | O CEP do endereço do imóvel pode conter somente números, como pode também estar com a formatação oficial utilizada pelos Correios. Máximo de 9 (nove) caracteres. |
 | endereco | NÃO | string(200) | Endereço do imóvel, sem o bairro, número e complemento. Somente o logradouro do imóvel deve ser enviado neste campo. Máximo de 200 (duzentos) caracteres. |
 | numero | NÃO | string(10) | Número do imóvel no endereço. Máximo de 10 (dez) caracteres. |
-| complemento | NÃO | string(50) | Complemento do número do imóvel no endereço. Máximo de 20 (vinte) caracteres. |
+| complemento | NÃO | string(50) | Complemento do número do imóvel no endereço. Máximo de 50 (cinquenta) caracteres. |
 | descritivo | SIM | text | Descrição do imóvel. Tamanho máximo de 3000 caracteres. Ver especificações de seu conteúdo em [Especificações Descritivo](/arquivo/especificacoes/especificacoes-descritivo) |
 | fotos_imovel | NÃO | TAG | Depende da tag foto, url e data_atualizacao dentro da mesma, ver especificações de seu conteúdo em [Especificações Fotos](/arquivo/especificacoes/especificacoes-fotos) |
 | data_atualizacao | NÃO | datetime | Data de cadastro ou data da última atualização do imóvel no sistema do cliente. Priorizar o informe da data de última utilização, caso existente no sistema. Formato data/hora suportado: AAAA-MM-DD HH:MM:SS (ex: 2021-10-10 12:00:00). |

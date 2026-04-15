@@ -19,7 +19,7 @@
             <valor_condominio>520</valor_condominio>
             <area_total>75</area_total>
             <area_util>62</area_util>
-            <conservacao>Novo</conservacao>
+            <conservacao>N</conservacao>
             <quartos>2</quartos>
             <suites>1</suites>
             <garagem>1</garagem>
@@ -108,7 +108,7 @@ Novo Mundo, próximo a comércios, escolas e transporte público.
             <finalidade>RE</finalidade>
             <finalidade2></finalidade2>
             <destaque>1</destaque>
-            <tipo>Casa de Condomínio</tipo>
+            <tipo>Casa / Sobrado em Condomínio</tipo>
             <tipo2></tipo2>
             <valor>650000</valor>
             <valor_locacao></valor_locacao>
@@ -116,7 +116,7 @@ Novo Mundo, próximo a comércios, escolas e transporte público.
             <valor_condominio>800</valor_condominio>
             <area_total>300</area_total>
             <area_util>220</area_util>
-            <conservacao>Novo</conservacao>
+            <conservacao>N</conservacao>
             <quartos>3</quartos>
             <suites>2</suites>
             <garagem>2</garagem>
@@ -197,7 +197,7 @@ Destaque para a piscina aquecida e jardim. Condomínio com segurança 24h, porta
             <finalidade>CO</finalidade>
             <finalidade2></finalidade2>
             <destaque>0</destaque>
-            <tipo>Sala Comercial</tipo>
+            <tipo>Conj. Comercial / Sala</tipo>
             <tipo2></tipo2>
             <valor></valor>
             <valor_locacao>2500</valor_locacao>
@@ -205,7 +205,7 @@ Destaque para a piscina aquecida e jardim. Condomínio com segurança 24h, porta
             <valor_condominio>450</valor_condominio>
             <area_total>50</area_total>
             <area_util>45</area_util>
-            <conservacao>Reformado</conservacao>
+            <conservacao>U</conservacao>
             <quartos>0</quartos>
             <suites>0</suites>
             <garagem>1</garagem>
